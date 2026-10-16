@@ -1,0 +1,45 @@
+{
+  "scrapedAt": "2026-10-10T10:39:23.747Z",
+  "productCount": 20,
+  "textureCount": 10,
+  "errorCount": 0,
+  "categories": [
+    {
+      "id": "ceramic-porcelain",
+      "requested": 10,
+      "discovered": 10,
+      "completed": 10
+    },
+    {
+      "id": "bathroom-sets",
+      "requested": 2,
+      "discovered": 2,
+      "completed": 2
+    },
+    {
+      "id": "bathtubs-showers",
+      "requested": 2,
+      "discovered": 2,
+      "completed": 2
+    },
+    {
+      "id": "bathroom-sinks",
+      "requested": 2,
+      "discovered": 2,
+      "completed": 2
+    },
+    {
+      "id": "kitchen-sinks",
+      "requested": 2,
+      "discovered": 2,
+      "completed": 2
+    },
+    {
+      "id": "mixers",
+      "requested": 2,
+      "discovered": 2,
+      "completed": 2
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,3 @@
+catalog_id,sku,manufacturer,product_name,material,finish,width_cm,depth_cm,height_cm,unit_cost,currency,lead_time_days,bom_reference,product_url
+EL-SKU-0001,EL-SKU-0001,ElSalab,Example cabinet,MDF,Matte,120,45,90,12500,EGP,14,BOM-EL-SKU-0001,https://example.invalid/products/EL-SKU-0001
+

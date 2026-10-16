@@ -1,0 +1,58 @@
+{
+  "sourceSite": "https://www.ahmedelsallab.com/ar/",
+  "requestDelayMs": 750,
+  "textureImageIndexBySku": {
+    "CRKRS12126A": 0,
+    "CRCLP16003A": 0
+  },
+  "categories": [
+    {
+      "id": "ceramic-porcelain",
+      "labelAr": "السيراميك والبورسلين",
+      "labelEn": "Ceramic & Porcelain",
+      "url": "https://www.ahmedelsallab.com/ar/ceramic-porcelain.html",
+      "sampleLimit": 10,
+      "mode": "texture"
+    },
+    {
+      "id": "bathroom-sets",
+      "labelAr": "أطقم الحمام",
+      "labelEn": "Bathroom Sets",
+      "url": "https://www.ahmedelsallab.com/ar/bathroom/bathroom-sets.html",
+      "sampleLimit": 2,
+      "mode": "metadata"
+    },
+    {
+      "id": "bathtubs-showers",
+      "labelAr": "بانيوهات وكبائن",
+      "labelEn": "Bathtubs & Showers",
+      "url": "https://www.ahmedelsallab.com/ar/bathroom/bathtubs-and-showers.html",
+      "sampleLimit": 2,
+      "mode": "metadata"
+    },
+    {
+      "id": "bathroom-sinks",
+      "labelAr": "أحواض الحمام",
+      "labelEn": "Bathroom Sinks",
+      "url": "https://www.ahmedelsallab.com/ar/sinks-units/sinks.html",
+      "sampleLimit": 2,
+      "mode": "metadata"
+    },
+    {
+      "id": "kitchen-sinks",
+      "labelAr": "أحواض المطبخ",
+      "labelEn": "Kitchen Sinks",
+      "url": "https://www.ahmedelsallab.com/ar/sinks-units/sinks2.html",
+      "sampleLimit": 2,
+      "mode": "metadata"
+    },
+    {
+      "id": "mixers",
+      "labelAr": "خلاطات الحمام والمطبخ",
+      "labelEn": "Bathroom & Kitchen Mixers",
+      "url": "https://www.ahmedelsallab.com/ar/mixers.html",
+      "sampleLimit": 2,
+      "mode": "metadata"
+    }
+  ]
+}

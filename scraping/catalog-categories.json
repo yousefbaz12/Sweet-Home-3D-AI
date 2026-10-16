@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "purpose": "A focused El Sallab taxonomy for the Sweet Home 3D proof of concept, not a full mirror of the store.",
+  "categories": [
+    {
+      "id": "bathroom",
+      "nameAr": "الحمامات",
+      "nameEn": "Bathroom",
+      "children": [
+        { "id": "bathroom-sets", "nameAr": "أطقم الحمام", "nameEn": "Bathroom Sets", "simulation": "needs-3d-model" },
+        { "id": "toilets", "nameAr": "تواليت", "nameEn": "Toilets", "simulation": "needs-3d-model" },
+        { "id": "bathroom-sinks", "nameAr": "أحواض الحمام", "nameEn": "Bathroom Sinks", "simulation": "needs-3d-model" },
+        { "id": "bathtubs-showers", "nameAr": "بانيوهات وكبائن", "nameEn": "Bathtubs & Showers", "simulation": "needs-3d-model" },
+        { "id": "bathroom-units", "nameAr": "وحدات الحمام", "nameEn": "Bathroom Units", "simulation": "needs-3d-model" },
+        { "id": "bathroom-mixers", "nameAr": "خلاطات الحمام", "nameEn": "Bathroom Mixers", "simulation": "needs-3d-model" }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "nameAr": "المطابخ",
+      "nameEn": "Kitchen",
+      "children": [
+        { "id": "kitchen-sinks", "nameAr": "أحواض المطبخ", "nameEn": "Kitchen Sinks", "simulation": "needs-3d-model" },
+        { "id": "kitchen-mixers", "nameAr": "خلاطات المطبخ", "nameEn": "Kitchen Mixers", "simulation": "needs-3d-model" },
+        { "id": "kitchen-appliances", "nameAr": "أجهزة المطبخ", "nameEn": "Kitchen Appliances", "simulation": "needs-3d-model" }
+      ]
+    },
+    {
+      "id": "ceramic-porcelain",
+      "nameAr": "السيراميك والبورسلين",
+      "nameEn": "Ceramic & Porcelain",
+      "children": [
+        { "id": "ceramic-floor", "nameAr": "سيراميك أرضيات", "nameEn": "Ceramic Floor", "simulation": "texture-ready" },
+        { "id": "ceramic-wall", "nameAr": "سيراميك حوائط", "nameEn": "Ceramic Wall", "simulation": "texture-ready" },
+        { "id": "porcelain-floor", "nameAr": "بورسلين أرضيات", "nameEn": "Porcelain Floor", "simulation": "texture-ready" },
+        { "id": "porcelain-wall", "nameAr": "بورسلين حوائط", "nameEn": "Porcelain Wall", "simulation": "texture-ready" },
+        { "id": "mosaic", "nameAr": "شيت موزايك", "nameEn": "Mosaic", "simulation": "texture-ready" }
+      ]
+    },
+    {
+      "id": "finishing",
+      "nameAr": "التشطيبات",
+      "nameEn": "Finishing",
+      "children": [
+        { "id": "plumbing", "nameAr": "مستلزمات سباكة", "nameEn": "Plumbing", "simulation": "metadata-only" },
+        { "id": "electrical", "nameAr": "مستلزمات الكهرباء", "nameEn": "Electrical", "simulation": "metadata-only" },
+        { "id": "doors", "nameAr": "أبواب وكوالين", "nameEn": "Doors & Locks", "simulation": "needs-3d-model" },
+        { "id": "lighting-decor", "nameAr": "إضاءة وديكور", "nameEn": "Lighting & Decor", "simulation": "needs-3d-model" }
+      ]
+    }
+  ]
+}

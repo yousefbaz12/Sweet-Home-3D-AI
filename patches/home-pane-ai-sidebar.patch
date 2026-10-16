@@ -1,0 +1,24 @@
+--- a/SweetHome3D/src/com/eteks/sweethome3d/swing/HomePane.java
++++ b/SweetHome3D/src/com/eteks/sweethome3d/swing/HomePane.java
+@@ -194,6 +194,7 @@ import com.eteks.sweethome3d.plugin.HomePluginController;
+ import com.eteks.sweethome3d.plugin.Plugin;
+ import com.eteks.sweethome3d.plugin.PluginAction;
+ import com.eteks.sweethome3d.plugin.PluginManager;
++import com.eteks.sweethome3d.swing.ai.AiDesignPanel;
+ import com.eteks.sweethome3d.tools.OperatingSystem;
+ import com.eteks.sweethome3d.viewcontroller.ContentManager;
+ import com.eteks.sweethome3d.viewcontroller.FurnitureController;
+@@ -274,6 +275,12 @@ public class HomePane extends JFrame implements HomeView {
+     Container contentPane = getContentPane();
+     contentPane.add(createToolBar(home), BorderLayout.NORTH);
+-    contentPane.add(createMainPane(home, preferences, controller));
++    JComponent mainPane = createMainPane(home, preferences, controller);
++    // El Sallab experiment: keep the upstream editor intact and wrap it with
++    // an optional prompt-to-design sidebar. Set -Dsweethome3d.ai.disabled=true
++    // to launch the original layout without the experiment.
++    contentPane.add(Boolean.getBoolean("sweethome3d.ai.disabled")
++        ? mainPane
++        : AiDesignPanel.wrap(mainPane, home, preferences, controller));
+     if (OperatingSystem.isMacOSXLeopardOrSuperior()) {
+       // Under Mac OS X 10.5, add some dummy labels at left and right borders
+       // to avoid the tool bar to be attached on these borders

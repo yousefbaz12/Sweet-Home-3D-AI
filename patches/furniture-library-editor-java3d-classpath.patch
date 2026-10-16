@@ -1,0 +1,11 @@
+--- a/FurnitureLibraryEditor/build.xml
++++ b/FurnitureLibraryEditor/build.xml
+@@ -30,4 +30,8 @@
+     <!-- Compile Furniture Library Editor -->
+     <javac srcdir="src" destdir="build/classes"
+            encoding="ISO-8859-1" target="1.5">
++      <!-- The upstream 1.20 script omitted Java 3D while editor sources import it directly. -->
++      <extdirs>
++        <pathelement location="../SweetHome3D/lib"/>
++      </extdirs>
+       <classpath>
